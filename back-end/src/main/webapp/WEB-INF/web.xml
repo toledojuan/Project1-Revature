@@ -1,0 +1,31 @@
+
+
+<web-app>
+
+
+    <display-name>ERS Application API</display-name>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.ers.servlet.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReimbursementServlet</servlet-name>
+        <servlet-class>com.ers.servlet.ReimbursementServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReimbursementServlet</servlet-name>
+        <url-pattern>/reimbursements/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+
+
